@@ -1,12 +1,27 @@
-# React + Vite
+-- Movie Discovery App --
+This is a responsive movie discovery web application built with React and powered by The Movie Database (TMDB) API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It allows users to:
+ -  Search for movies in real-time (debounced input)
 
-Currently, two official plugins are available:
+ -  View trending movies of the week
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ -  Tracks search popularity using Appwrite backend
 
-## Expanding the ESLint configuration
+ -  Fully responsive UI, deployable via Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+NOTE : TMDB may be blocked in certain regions or networks. If the API fails to load movies, check CORS/network restrictions or use a proxy during testing.
+
+-- Tech Stack: --
+1. React
+
+2. Appwrite (for backend search count updates)
+
+3. TMDB API (for movie data)
+
+4. Tailwind CSS (optional if you're using styles)
+
+5. Netlify (for deployment)
+
+-- Live Demo --
+https://movie-recommend-site.netlify.app/

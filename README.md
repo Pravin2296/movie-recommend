@@ -25,3 +25,4 @@ NOTE : TMDB may be blocked in certain regions or networks. If the API fails to l
 
 -- Live Demo --
 https://movie-recommend-site.netlify.app/
+
